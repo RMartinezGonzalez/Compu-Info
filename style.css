@@ -417,7 +417,8 @@ footer .contacto .contacto-img {
         font-size: 20px;
     }
 
-    .text-container .text-content p {
+    .text-container .text-content p,
+    .text-container .text-content-principal p {
         font-size: 20px;
     }
 }
