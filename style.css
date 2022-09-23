@@ -394,9 +394,7 @@ footer .contacto .contacto-img {
     header .info-mini .menu-nav {
         padding: 20px 15px;
     }
-}
 
-@media screen and (max-width: 544px) {
     header .logo {
         font-size: 15px;
     }
