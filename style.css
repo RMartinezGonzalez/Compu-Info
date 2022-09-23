@@ -279,8 +279,13 @@ aside .side-container .side-item:hover {
     height: 500px;
 }
 
+.text-container .text-content .text-img.height-a {
+    height: 400px;
+}
+
 .text-container .text-content .text-img.width {
-    height: 220px;
+    width: 100%;
+    margin-bottom: 25px !important;
 }
 
 footer {
@@ -340,12 +345,22 @@ footer .contacto .contacto-img {
         margin-bottom: 40px !important;
     }
 
+    .text-container .text-content .text-img.height-a,
+    .text-container .text-content .text-img.height {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 1105px) {
     .text-container .text-content-principal .text-img-principal {
         width: 100%;
         margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .text-container .text-title.width {
+        font-size: 25px;
     }
 }
 
@@ -383,12 +398,6 @@ footer .contacto .contacto-img {
 
 }
 
-@media screen and (max-width: 772px) {
-    .text-container .text-title.width {
-        font-size: 25px;
-    }
-}
-
 @media screen and (max-width: 570px) {
     header .info-mini .menu,
     header .info-mini .menu-nav {
@@ -397,6 +406,11 @@ footer .contacto .contacto-img {
 
     header .logo {
         font-size: 15px;
+    }
+
+    .text-container .text-content .text-img.height-a,
+    .text-container .text-content .text-img.height {
+        width: 45%;
     }
 }
 
