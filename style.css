@@ -433,4 +433,9 @@ footer .contacto .contacto-img {
     .text-container .text-content-principal p {
         font-size: 20px;
     }
+
+    .text-container .text-content-principal .text-capital,
+    .text-container .text-content .text-capital {
+        font-size: 22px;
+    }
 }
